@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T08:02:39.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="qHcm9xiqqzQ-LRTi53My" version="14.4.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:03:53.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="WdD7AZAHbJIHOi32F8fp" version="14.4.2" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1018" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -258,7 +258,7 @@
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-0" />
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-1" parent="fKQNyWTKkvAZZ8-nuyA4-0" />
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-6" value="wechat" style="swimlane;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-1">
-          <mxGeometry x="160" y="220" width="200" height="370" as="geometry" />
+          <mxGeometry x="160" y="220" width="200" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-14" value="填写任务认证码" style="whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-6">
           <mxGeometry x="55" y="200" width="95" height="30" as="geometry" />
@@ -266,8 +266,11 @@
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-26" value="成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-6">
           <mxGeometry x="60" y="295" width="80" height="32.5" as="geometry" />
         </mxCell>
+        <mxCell id="fKQNyWTKkvAZZ8-nuyA4-33" value="错误提示" style="whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-6">
+          <mxGeometry x="67.5" y="380" width="70" height="35" as="geometry" />
+        </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-7" value="backend" style="swimlane;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-1">
-          <mxGeometry x="360" y="220" width="200" height="370" as="geometry" />
+          <mxGeometry x="360" y="220" width="200" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-16" value="填写采集任务单" style="whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-7">
           <mxGeometry x="55" y="70" width="90" height="40" as="geometry" />
@@ -291,7 +294,7 @@
           <mxGeometry x="70" y="250" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-15" value="admin" style="swimlane;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-1">
-          <mxGeometry x="560" y="220" width="200" height="370" as="geometry" />
+          <mxGeometry x="560" y="220" width="200" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-19" value="保存到log表中" style="whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-15">
           <mxGeometry x="40" y="131.25" width="100" height="47.5" as="geometry" />
@@ -308,8 +311,20 @@
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fKQNyWTKkvAZZ8-nuyA4-1" source="fKQNyWTKkvAZZ8-nuyA4-24" target="fKQNyWTKkvAZZ8-nuyA4-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fKQNyWTKkvAZZ8-nuyA4-32" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fKQNyWTKkvAZZ8-nuyA4-27">
+          <mxGeometry x="-0.1656" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fKQNyWTKkvAZZ8-nuyA4-1" source="fKQNyWTKkvAZZ8-nuyA4-21" target="fKQNyWTKkvAZZ8-nuyA4-29">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKQNyWTKkvAZZ8-nuyA4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fKQNyWTKkvAZZ8-nuyA4-1" source="fKQNyWTKkvAZZ8-nuyA4-24" target="fKQNyWTKkvAZZ8-nuyA4-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="620" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
