@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T08:04:47.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="eID152RkOeVjk5CePHAm" version="14.4.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:33:18.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="gPCGqK5I2pKK86RGZSnm" version="14.4.2" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1018" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gMkyaHJIfXp8Dw_QR_Yv" name="用户模块">
-    <mxGraphModel dx="1036" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PWTD4cdbwE5gBla4P6aK-0" />
         <mxCell id="PWTD4cdbwE5gBla4P6aK-1" parent="PWTD4cdbwE5gBla4P6aK-0" />
@@ -253,7 +253,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="er6-ak8gnzRFll1TWkO6" name="Page-6">
-    <mxGraphModel dx="1036" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-0" />
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-1" parent="fKQNyWTKkvAZZ8-nuyA4-0" />
@@ -289,9 +289,6 @@
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fKQNyWTKkvAZZ8-nuyA4-7" source="fKQNyWTKkvAZZ8-nuyA4-21" target="fKQNyWTKkvAZZ8-nuyA4-24">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fKQNyWTKkvAZZ8-nuyA4-13" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-1">
-          <mxGeometry x="70" y="250" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fKQNyWTKkvAZZ8-nuyA4-15" value="admin" style="swimlane;" vertex="1" parent="fKQNyWTKkvAZZ8-nuyA4-1">
           <mxGeometry x="560" y="220" width="200" height="480" as="geometry" />
@@ -335,7 +332,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YJWZQTxY1yCWVquzqzDL" name="电站信息">
-    <mxGraphModel dx="1018" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_YGJ8qmJKz7Xd4DwLezX-0" />
         <mxCell id="_YGJ8qmJKz7Xd4DwLezX-1" parent="_YGJ8qmJKz7Xd4DwLezX-0" />
