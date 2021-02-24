@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T02:46:18.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="4EYBf5_jg-oPImxkLR2m" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-24T03:47:59.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="6Jkpv2OdZB_qdpeaFSG2" version="14.4.2" type="github" pages="2">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1166" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-39" value="AuthAndUserInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-1">
-          <mxGeometry x="420" y="230" width="210" height="164" as="geometry" />
+          <mxGeometry x="425" y="220" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-40" value="+ authCode: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -163,14 +163,17 @@
         <mxCell id="HQGPUMjog5LNMLzuyo_q-44" value="+ userId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
           <mxGeometry y="78" width="210" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="HQGPUMjog5LNMLzuyo_q-46" value="+ phoneNumber: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
+          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
-          <mxGeometry y="104" width="210" height="8" as="geometry" />
+          <mxGeometry y="130" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-42" value="+ generateAuthCode(String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
-          <mxGeometry y="112" width="210" height="26" as="geometry" />
+          <mxGeometry y="138" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-45" value="+ authCodeValueOf(String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-39">
-          <mxGeometry y="138" width="210" height="26" as="geometry" />
+          <mxGeometry y="164" width="210" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
