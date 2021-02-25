@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:55:04.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="lnzVmyVIwOA25QLZ4k96" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:56:16.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="b3seNAM1rR7U8dpFZEvH" version="14.4.3" type="github" pages="2">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="474" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8LLgx4vdBzQ1kD5CrxiD" name="Page-2">
-    <mxGraphModel dx="1036" dy="2026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-0" />
         <mxCell id="HQGPUMjog5LNMLzuyo_q-1" parent="HQGPUMjog5LNMLzuyo_q-0" />
@@ -98,7 +98,7 @@
           <mxGeometry x="120" y="-280" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-31" value="登录认证-Feature" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="HQGPUMjog5LNMLzuyo_q-1" vertex="1">
-          <mxGeometry x="60" y="-90" width="1140" height="510" as="geometry" />
+          <mxGeometry x="60" y="-90" width="1090" height="510" as="geometry" />
         </mxCell>
         <mxCell id="HQGPUMjog5LNMLzuyo_q-32" value="CheckIdentifyService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;" parent="HQGPUMjog5LNMLzuyo_q-1" vertex="1">
           <mxGeometry x="150" y="230" width="215" height="138" as="geometry" />
