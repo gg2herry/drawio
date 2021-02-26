@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T07:36:26.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="U2ZGrPqnySnA_oy2kMRl" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:38:24.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="0axUyg6mFMsWtQFDkBg2" version="14.4.3" type="github" pages="2">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="474" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
         <mxCell id="TmlSuqyC0zM2CFqLp6od-167" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TmlSuqyC0zM2CFqLp6od-165">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TmlSuqyC0zM2CFqLp6od-105" value="&lt;div&gt;&lt;span&gt;drop table if exists plugin;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create table plugin（&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;plugin_id&amp;nbsp; int(11) unsgin not null auto_increment comment &#39;ID&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;company_no()&lt;/div&gt;&lt;div&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-1">
+        <mxCell id="TmlSuqyC0zM2CFqLp6od-105" value="&lt;div&gt;&lt;span&gt;drop table if exists plugin;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create table plugin（&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;plugin_id&amp;nbsp; int(11) unsgin not null auto_increment comment &#39;ID&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;company_no varchar(20) not null comment &#39;厂家&#39;，&lt;/div&gt;&lt;div&gt;plugin_name varchar(20) not null commnet &#39;光伏组件型号&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="HQGPUMjog5LNMLzuyo_q-1">
           <mxGeometry x="-370" y="754.11" width="400" height="144.08" as="geometry" />
         </mxCell>
       </root>
