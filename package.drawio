@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:33:51.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="2malg4cE3UlKrMhYUCvC" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-28T08:44:41.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="11gy0zrK1TKayVaGXT2_" version="14.6.6" type="github" pages="3">
   <diagram id="8LLgx4vdBzQ1kD5CrxiD" name="Page-2">
     <mxGraphModel dx="1246" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -529,12 +529,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cw2ZYst2s0e0fRTmJB1K" name="静态包结构">
-    <mxGraphModel dx="1006" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-0" />
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-1" parent="PM_1ZX3SRBFLgxQR2d_T-0" />
-        <mxCell id="YwVxQnR9og7hI8JVoDPN-0" value="com.sungrow.pbb." style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="164" y="140" width="146" height="60" as="geometry" />
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-18" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="360" y="140" width="540" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-0" value="com.sungrow.pbb.security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="414" y="170" width="156" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-4" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
           <mxGeometry x="164" y="230" width="160" height="138" as="geometry" />
@@ -553,6 +556,23 @@
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YwVxQnR9og7hI8JVoDPN-4">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-10" value="com.sungrow.pbb.stationBussiness" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="650" y="170" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br/&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="540" y="410" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YwVxQnR9og7hI8JVoDPN-13">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-20" value="com.sungrow.pbb.common" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="410" y="230" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-21" value="com.sungrow.pbb.exception&lt;br&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="660" y="230" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
