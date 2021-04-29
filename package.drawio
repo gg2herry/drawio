@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T10:01:48.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="gHmn5NbwayTkRNqwOptp" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-29T00:58:34.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="DYudhMO1Oer93j_iO2cv" version="14.6.6" type="github" pages="3">
   <diagram id="8LLgx4vdBzQ1kD5CrxiD" name="Page-2">
     <mxGraphModel dx="1246" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -457,7 +457,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lwuJ0cubhbyhhODcX88E" name="数据库表">
-    <mxGraphModel dx="1246" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QcE3PReFvYjuMhEhEGov-0" />
         <mxCell id="QcE3PReFvYjuMhEhEGov-1" parent="QcE3PReFvYjuMhEhEGov-0" />
@@ -529,7 +529,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cw2ZYst2s0e0fRTmJB1K" name="静态包结构">
-    <mxGraphModel dx="1246" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-0" />
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-1" parent="PM_1ZX3SRBFLgxQR2d_T-0" />
@@ -539,11 +539,19 @@
         <mxCell id="YwVxQnR9og7hI8JVoDPN-10" value="com.sungrow.pbb.stationBussiness" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
           <mxGeometry x="550" y="130" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YwVxQnR9og7hI8JVoDPN-20" value="com.sungrow.pbb.common" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="80" y="260" width="220" height="50" as="geometry" />
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-20" value="com.sungrow.pbb.common" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=20;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="130" y="340" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-21" value="com.sungrow.pbb.exception&lt;br&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="550" y="220" width="220" height="50" as="geometry" />
+          <mxGeometry x="414" y="360" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-23" value="Package1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="140" y="485" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-24" value="Packaged element1" style="html=1;" vertex="1" parent="YwVxQnR9og7hI8JVoDPN-23">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
