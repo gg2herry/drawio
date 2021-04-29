@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T01:09:46.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="JqmGG2xr5C9VqZUGSQxn" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-29T02:33:49.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="6DxXNujCMbJ0on4z1cld" version="14.6.6" type="github" pages="3">
   <diagram id="8LLgx4vdBzQ1kD5CrxiD" name="Page-2">
     <mxGraphModel dx="1310" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -457,12 +457,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lwuJ0cubhbyhhODcX88E" name="数据库表">
-    <mxGraphModel dx="1310" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1070" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QcE3PReFvYjuMhEhEGov-0" />
         <mxCell id="QcE3PReFvYjuMhEhEGov-1" parent="QcE3PReFvYjuMhEhEGov-0" />
         <mxCell id="fYrtVf4TbGVnYK6b-VUZ-6" value="" style="group" vertex="1" connectable="0" parent="QcE3PReFvYjuMhEhEGov-1">
-          <mxGeometry x="90" y="160" width="650" height="635" as="geometry" />
+          <mxGeometry x="100" y="120" width="670" height="635" as="geometry" />
         </mxCell>
         <mxCell id="QcE3PReFvYjuMhEhEGov-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;pbb_log(采集记录表)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;pbb_log_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;pbb_station_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;电话&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 状态&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 意见&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .......&lt;br&gt;&lt;br&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-6">
           <mxGeometry x="230" width="180" height="120" as="geometry" />
@@ -524,6 +524,12 @@
         </mxCell>
         <mxCell id="fYrtVf4TbGVnYK6b-VUZ-5" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-3">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_4ReWDbrNegOjtZnyhO-0" value="pbb_station电站信息表,包含了&lt;br&gt;1.历年发电量数据&lt;br&gt;2.仿真模拟需要的相关参数&lt;br&gt;3.电站运维的相关数据" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-6">
+          <mxGeometry x="490" y="160" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5_4ReWDbrNegOjtZnyhO-1" value="pbb_log电站采集记录表,收集人员使用的电话作为唯一表示,一个电话可以对应多个电站收集信息,同时收集表单的状态管理(新建,)" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-6">
+          <mxGeometry x="35" y="140" width="165" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
