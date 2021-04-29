@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T02:42:00.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="Gpv8zUbp_AILkkLo0ty5" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-29T03:02:14.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="H6L7P_5ezrccYL-RmyuK" version="14.6.6" type="github" pages="3">
   <diagram id="8LLgx4vdBzQ1kD5CrxiD" name="Page-2">
     <mxGraphModel dx="1310" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,6 +467,9 @@
         <mxCell id="QcE3PReFvYjuMhEhEGov-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;pbb_log(采集记录表)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;pbb_log_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;pbb_station_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;电话&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 状态&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 意见&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .......&lt;br&gt;&lt;br&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-6">
           <mxGeometry x="230" width="180" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="hMB7VtnqHIDYJFfFqTVc-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fYrtVf4TbGVnYK6b-VUZ-6" source="QcE3PReFvYjuMhEhEGov-3" target="QcE3PReFvYjuMhEhEGov-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QcE3PReFvYjuMhEhEGov-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;pbb_station(电站基本信息表)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;station_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;station_name(名称)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;station_no(编码)&lt;br&gt;......&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-6">
           <mxGeometry x="230" y="200" width="180" height="90" as="geometry" />
         </mxCell>
@@ -515,16 +518,6 @@
         <mxCell id="fYrtVf4TbGVnYK6b-VUZ-2" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-0">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fYrtVf4TbGVnYK6b-VUZ-3" value="has" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="fYrtVf4TbGVnYK6b-VUZ-6" source="QcE3PReFvYjuMhEhEGov-3" target="QcE3PReFvYjuMhEhEGov-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="230" as="sourcePoint" />
-            <mxPoint x="750" y="210" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fYrtVf4TbGVnYK6b-VUZ-5" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="fYrtVf4TbGVnYK6b-VUZ-3">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5_4ReWDbrNegOjtZnyhO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fYrtVf4TbGVnYK6b-VUZ-6" source="5_4ReWDbrNegOjtZnyhO-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="230" as="targetPoint" />
@@ -562,24 +555,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cw2ZYst2s0e0fRTmJB1K" name="静态包结构">
-    <mxGraphModel dx="1310" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1070" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-0" />
         <mxCell id="PM_1ZX3SRBFLgxQR2d_T-1" parent="PM_1ZX3SRBFLgxQR2d_T-0" />
         <mxCell id="YwVxQnR9og7hI8JVoDPN-0" value="com.sungrow.pbb.security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="80" y="110" width="156" height="50" as="geometry" />
+          <mxGeometry x="80" y="110" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-10" value="com.sungrow.pbb.stationBussiness" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
           <mxGeometry x="550" y="130" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YwVxQnR9og7hI8JVoDPN-20" value="com.sungrow.pbb.common" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=20;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="130" y="340" width="220" height="50" as="geometry" />
+        <mxCell id="YwVxQnR9og7hI8JVoDPN-20" value="com.sungrow.pbb" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=20;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
+          <mxGeometry x="130" y="340" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-21" value="com.sungrow.pbb.exception&lt;br&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=center;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="414" y="360" width="220" height="50" as="geometry" />
+          <mxGeometry x="40" y="450" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YwVxQnR9og7hI8JVoDPN-23" value="Package1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="PM_1ZX3SRBFLgxQR2d_T-1">
-          <mxGeometry x="170" y="490" width="280" height="120" as="geometry" />
+          <mxGeometry x="470" y="510" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WGWT7FfJn9_MH3ulAbZB-0" value="" style="edgeStyle=none;html=1;startArrow=sysMLPackCont;startSize=12;endArrow=none;entryX=0;entryY=0;entryDx=130;entryDy=14;entryPerimeter=0;" edge="1" parent="PM_1ZX3SRBFLgxQR2d_T-1" target="YwVxQnR9og7hI8JVoDPN-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="170" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
