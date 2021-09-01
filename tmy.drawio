@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T09:09:18.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.84" etag="C-RKgnXqSyoMXiDB4SlQ" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-01T09:12:01.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.84" etag="ACuTyR4_gDpG6lYuttdj" version="14.4.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1054" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,8 +77,14 @@
         <mxCell id="fDD50osWGfqvHUBUw5RR-2" value="特征工程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
           <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fDD50osWGfqvHUBUw5RR-4" value="生成气象年矩阵&lt;br&gt;{pow(30,12)，12}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
-          <mxGeometry x="180" y="460" width="90" height="40" as="geometry" />
+        <mxCell id="nAirORN2SGwKIJETk05--81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q-vmy_DxmDbjZRM_NTmy-1" source="fDD50osWGfqvHUBUw5RR-4" target="nAirORN2SGwKIJETk05--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nAirORN2SGwKIJETk05--83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q-vmy_DxmDbjZRM_NTmy-1" source="fDD50osWGfqvHUBUw5RR-4" target="nAirORN2SGwKIJETk05--82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fDD50osWGfqvHUBUw5RR-4" value="模型预测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
+          <mxGeometry x="180" y="480" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nAirORN2SGwKIJETk05--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q-vmy_DxmDbjZRM_NTmy-1" source="fDD50osWGfqvHUBUw5RR-6" target="nAirORN2SGwKIJETk05--69">
           <mxGeometry relative="1" as="geometry" />
@@ -273,6 +279,12 @@
         </mxCell>
         <mxCell id="nAirORN2SGwKIJETk05--76" value="测试数据使用Sandia等方法生成典型气象年" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
           <mxGeometry x="690" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nAirORN2SGwKIJETk05--80" value="多算法比较" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
+          <mxGeometry x="350" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nAirORN2SGwKIJETk05--82" value="结果输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Q-vmy_DxmDbjZRM_NTmy-1">
+          <mxGeometry x="180" y="600" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
