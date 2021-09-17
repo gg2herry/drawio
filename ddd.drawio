@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T06:25:01.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="2XWfCBfUFmZoFSr3XcFv" version="15.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-17T06:27:15.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="-1juN7Udp-L7ZPPEvdrY" version="15.2.7" type="github" pages="3">
   <diagram id="RVnjbmVlK9y6l-0-MwZw" name="Page-1">
-    <mxGraphModel dx="2061" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNqxf0kTn70WOW5vYwfr-37" value="base-parent" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="180" width="120" height="50" as="geometry" />
+          <mxGeometry x="20" y="180" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oWwIEVqb9HZ7xAzAsLu--14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="iNqxf0kTn70WOW5vYwfr-39" target="oWwIEVqb9HZ7xAzAsLu--3">
           <mxGeometry relative="1" as="geometry" />
@@ -119,6 +119,9 @@
         </mxCell>
         <mxCell id="oWwIEVqb9HZ7xAzAsLu--15" value="测算平台" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="430" y="540" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWwIEVqb9HZ7xAzAsLu--18" value="基于PBB项目的重构的思考,&lt;br&gt;来设想jeecg-boot的使用场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
