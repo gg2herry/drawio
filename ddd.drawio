@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T02:12:43.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="YPLzO6wgm5jfshi54gTs" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T02:19:49.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="8No4-Ns_EB65fs3sFId8" version="15.2.7" type="github">
   <diagram id="RVnjbmVlK9y6l-0-MwZw" name="Page-1">
     <mxGraphModel dx="2061" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QaY6hbD6TJU1VOFaWdfm-18" value="Custom层&lt;br&gt;com.sungrow.*" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="800" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="iNqxf0kTn70WOW5vYwfr-28" value="单体应用" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;perimeterSpacing=0;swimlaneFillColor=#D6B656;" parent="1" vertex="1">
           <mxGeometry x="540" y="10" width="210" height="230" as="geometry" />
         </mxCell>
@@ -153,11 +156,8 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QaY6hbD6TJU1VOFaWdfm-17" value="jeecg-boot层" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
+        <mxCell id="QaY6hbD6TJU1VOFaWdfm-17" value="jeecg-boot层&lt;br&gt;org.jeecg.*" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
           <mxGeometry x="130" y="620" width="590" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="QaY6hbD6TJU1VOFaWdfm-18" value="Custom层" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
-          <mxGeometry x="20" y="550" width="800" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
